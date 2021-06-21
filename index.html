@@ -3,7 +3,49 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Personal ID</title>
-		<link rel="stylesheet" href="108403048.css">
+		<style type="108403048/css">
+			ul {
+				list-style-type: none;
+				margin: 0;
+				padding: 0;
+				overflow: hidden;
+				background-color: black; <!-- 這個是產生色背景的用法 -->
+				top:0;
+				width:100%
+			}
+			li {
+				float: left;
+			}
+			li a {
+				display: block;
+				color: white;
+				text-align: center;
+				padding: 10px 14px;
+				text-decoration: none;
+			}
+			li a:hover:not(.active) {
+				background-color: gray; <!-- 當滑鼠一過去字的背景會變灰色 -->
+			}	
+			h1 {
+				color:white;
+				background-color:#FF8F59;
+				text-shadow: 3px 3px 6px #000000;
+			}
+			h5 {
+				float: center; <!-- 這行的東西會靠中間 -->
+			}
+			h5 a {
+				display: block;
+				color: #5A5AAD;
+				text-align: center;
+				padding: 10px 14px;
+				text-decoration: none;
+			}
+			h4 {
+				height: 52px;
+				background-image: linear-gradient(to right,
+				rgba(30, 144, 255, 0.3), rgba(0,0,255,0.9));
+			}
 	</head>
   <body>
 		<center>
@@ -15,24 +57,104 @@
 		</center>
 		<div>
 			<ul>
-				<li><a href="#主餐">主餐</a></li>
-				<li><a href="#副餐">副餐</a></li>
-				<li><a href="#飲料">飲料</a></li>
-				<li><a href="#心得">心得</a></li>
+				<li><a href="#興趣">興趣</a></li>
+				<li><a href="#嗜好">嗜好</a></li>
+				<li><a href="#運動類型">運動類型</a></li>
+				<li><a href="#經歷">經歷</a></li>
 			</ul>
 		</div>
 		<table border="1" style="background-color:#81C0C0;width:100%;height:100%">
 			<thead style="background-color:#00AEAE">
 				<tr>
-					<th>照片</th><th>名稱</th><th>說明</th><th>價格</th>
+					<th>名稱</th><th>說明</th>
 				</tr>
 				<tr>
-					<td colspan="4">
-						<section id="主餐">
+					<td colspan="2">
+						<section id="興趣">
 							<center>
-								主餐
+								興趣	
 							</center>
 						</section>
 					</td>
 				</tr>
 			</thead>
+			<tbody>
+				<tr>
+					<td align="center">游泳</td>
+					<td>
+						<ol>
+							<p>1.自由式</p>
+							<p>2.仰式</p>
+							<p>3.蛙式</p>
+						</ol>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="background-color:#00AEAE">
+						<section id="嗜好">
+							<center>
+								嗜好
+							</center>
+						</section>
+					</td>
+				</tr>
+				<tr>
+					<td align="center">打電動</td>
+					<td>
+						<ol>
+							<p>1.PS4</p>
+							<p>2.switch</p>
+							<p>3.wii</p>
+						</ol>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="background-color:#00AEAE">
+						<section id="運動類型">
+							<center>
+								運動類型
+							</center>
+						</section>
+					</td>
+				</tr>
+				<tr>
+					<td align="center">喜好運動排行</td>
+					<td>
+						<ol>
+							<p>1.basketball</p>
+							<p>2.swimming</p>
+							<p>3.boxing</p>
+						</ol>
+					</td>
+				</tr>
+				<tr>
+					<td colspan="2" style="background-color:#00AEAE">
+						<section id="經歷">
+							<center>
+								經歷
+							</center>
+						</section>
+					</td>
+				</tr>
+				<tr>
+					<td align="center">經歷</td>
+					<td>
+						<ol>
+							<p>1.家教</p>
+							<p>2.臨時工</p>
+							<p>3.助教</p>
+						</ol>
+					</td>
+				</tr>
+				<hr color="gray" size="3" />
+				<tr>
+					<td colspan="4" style="background-color:#B3D9D9">
+						<h5>
+							<a href="#top">go back to top</a>
+						</h5>
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
