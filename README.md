@@ -1,2 +1,2 @@
-[Please visit my site](https://eastern1031.github.io/)
+[Please visit my site]
 # Eastern1031.github.io
